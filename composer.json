@@ -1,0 +1,22 @@
+{
+    "name": "amamarul/laravel-paginator",
+    "description": "Laravel Paginator for Collections or Arrays",
+    "keywords": ["laravel","laravel 5.4","Laravel Paginator", "Laravel 5.4 paginate", "paginate array", "paginate collection"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maru Amallo-amamarul",
+            "email": "ama_marul@hotmail.com"
+        }
+    ],
+    "autoload":{
+      "psr-4": {
+        "Amamarul\\Paginator\\": "src/"
+      }
+    },
+    "minimum-stability": "stable",
+    "require": {},
+    "config": {
+        "preferred-install": "dist"
+    }
+}
