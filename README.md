@@ -17,7 +17,7 @@ Amamarul\Paginator\PaginatorServiceProvider::class,
 
 - Array
 
-```
+``` php
 use Amamarul\Paginator\Paginator;
 use Illuminate\Http\Request;
 
@@ -43,7 +43,7 @@ public function index(Request $request)
 
 - Collection
 
-```
+``` php
 use App\User;
 use Amamarul\Paginator\Paginator;
 use Illuminate\Http\Request;
@@ -64,7 +64,7 @@ public function index(Request $request)
 ```
 #### In Blade View (index.blade.php)
 
-```
+``` php
 @foreach ($paginator->items() as $element)
     <a href="{!!$element['url']!!}"><h3>{!!$element['name']!!}</h3></a>
 @endforeach
@@ -77,7 +77,7 @@ By default the url has `page` name
   If you´d like to change the page name yo must only add a fourth parameter with the name.
   Like this
 
-  ```
+  ``` php
   use App\User;
   use Amamarul\Paginator\Paginator;
   use Illuminate\Http\Request;
